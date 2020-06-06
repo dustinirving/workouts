@@ -2,6 +2,10 @@
 
 This application allows the user to create and track their workouts. They can keep track of multiple exercises in a workout. The user has the option to record either a resistance or cardio exercise. A resistance exercise will contain the following information: name, weight, sets, reps and duration, while a cardio exercise has name, duration and distance traveled.
 
+https://workout-monitor.herokuapp.com/
+
+![Workouts](./gifs/workout.gif)
+
 ### Tech Stack
 
 Bootstrap / HTML / JavaScript / Node.js / Express / Mongoose / MongoDB
