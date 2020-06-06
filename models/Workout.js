@@ -1,8 +1,14 @@
+// Require mongoose to create the schema
 const mongoose = require('mongoose')
+// Require Schema from mongoose
 const Schema = mongoose.Schema
 
+// Define the workout Schema
+// The day is type date with a default of the current date
+// Array of exercises with type, name, duration, weight, reps, sets, distance
+// Total Duration
 const workoutSchema = new Schema({
-  date: Date,
+  day: { type: Date, default: Date.now },
   exercises: [
     {
       type: { type: String, required: true },
@@ -13,9 +19,11 @@ const workoutSchema = new Schema({
       sets: { type: Number, required: false },
       distance: { type: Number, required: false }
     }
-  ]
+  ],
+  totalDuration: Number
 })
 
+// Define workout as a mongoose model
 const Workout = mongoose.model('Workout', workoutSchema)
-
+// Export Workout
 module.exports = Workout
