@@ -27,3 +27,9 @@ The following npm packages are dependencies:
 Licensed under the MIT License.
 
 ## Questions
+
+If you have any questions, please feel free to contact me.
+
+Email: dustin.irving@gmail.com
+
+<img src="https://avatars3.githubusercontent.com/u/53638843?v=4" width="250" />
